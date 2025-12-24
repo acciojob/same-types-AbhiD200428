@@ -1,5 +1,8 @@
 function isSameType(value1, value2) {
-  //your js code here
+  if (value1 === NaN) {
+  	return value2 === NaN;
+  }
+  return value1 === value2;
 }
 
 // do not change the code below.
